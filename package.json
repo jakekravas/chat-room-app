@@ -1,0 +1,27 @@
+{
+  "name": "chat-room-app",
+  "version": "1.0.0",
+  "description": "Reatlime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakekravas/chat-room-app.git"
+  },
+  "author": "Jake Kravas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakekravas/chat-room-app/issues"
+  },
+  "homepage": "https://github.com/jakekravas/chat-room-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
